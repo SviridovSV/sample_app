@@ -2,13 +2,14 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
-gem 'rails', '4.0.2'
+gem 'rails', '4.1'
 
 
 group :development, :test do 
   gem 'sqlite3', '1.3.8'
-  gem 'rspec-rails', '2.13.1'
-  gem 'guard-rspec', '2.5.0'
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  
 end
 
 group :test do
